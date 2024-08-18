@@ -1,5 +1,7 @@
 package com.jorge.cursojava.aula4;
 
+import java.util.Scanner;
+
 public class OperadoresRelacionais {
 
 	public static void main(String[] args) {
@@ -13,6 +15,15 @@ public class OperadoresRelacionais {
 		System.out.println("valor1 >= valor2: " + (valor1 >= valor2));
 		System.out.println("valor1 < valor2: " + (valor1 < valor2));
 		System.out.println("valor1 <= valor2: " + (valor1 <= valor2));
+		
+		Scanner scan = new Scanner(System.in);
+		String num1 = scan.next();
+		String num2 = scan.next();
+		int converter1 = Integer.valueOf(num1);
+		int converter2 = Integer.valueOf(num2);
+		int resultado = converter1 + converter2;
+		System.out.println("A Soma dos numeros informados é: " + resultado);
+
 	}
 
 }
