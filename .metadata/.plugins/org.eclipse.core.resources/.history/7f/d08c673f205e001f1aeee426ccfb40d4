@@ -21,7 +21,7 @@ public class OperadoresRelacionais {
 		System.out.println("Digite a quantidade de metros: ");
 		int metros = scan.nextInt();
 		int formula = metros * 100;
-		System.out.println(metros + " metros convertido para centimetros é igual a: " + formula);
+		System.out.println(metros + " metros convertido para centimetros é igual a:" + formula);
 	}
 
 }
