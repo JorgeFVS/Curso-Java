@@ -29,16 +29,16 @@ public class mainAluno {
 		aluno1.notas = new double[3][4];
 		
 		for(int i = 0; i < aluno1.disciplinas.length; i++) {
-			System.out.println("Informe as disciplinas: " + (i+1));
+			System.out.println("Informe a disciplina: " + (i+1));
 			aluno1.disciplinas[i] = scan.next();
 		}
 		
 		for(int i = 0; i < aluno1.notas.length; i++) {
-			System.out.println("Obtendo notas da disciplina" + aluno1.disciplinas[i]);
+			System.out.println("Obtendo notas da disciplina " + aluno1.disciplinas[i]);
 			
 			for (int j = 0; j < aluno1.notas[i].length; j++) {
 			
-				System.out.println("Entre com a nota" + (j+1));
+				System.out.println("Entre com a nota " + (j+1));
 				aluno1.notas[i][j] = scan.nextDouble();
 				
 			}
