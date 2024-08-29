@@ -31,5 +31,13 @@ public class ContaCorrente {
 	void deposito(double valor) {
 		saldo += valor;
 	}
+	
+	void consultarSaldo() {
+		System.out.println("Saldo atual da conta = " + saldo);
+	}
+	
+	boolean verificarUsoLimite() {
+		return saldo < 0;
+	}
 
 }

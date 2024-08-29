@@ -21,13 +21,19 @@ public class MainContaCorrente {
 		boolean saqueEfetuado = conta.saque(10);
 		if (saqueEfetuado) {
 			System.out.println("Saque efetuado com sucesso");
-			System.out.println("Saldo atual da conta: " + conta.saldo);
+			conta.consultarSaldo();
 		} else {
 			System.out.println("Não foi possivel realizar saque: saldo insuficiente");
 		}
 		
 		conta.deposito(500);
-		System.out.println("saldo atual da conta = : " + conta.saldo);
+		conta.consultarSaldo();
+		
+		if (conta.verificarUsoLimite()) {
+			System.out.println("Esta usando limite");
+		} else {
+			System.out.println("Não esta usando limite");
+		}
 	}
 
 }
