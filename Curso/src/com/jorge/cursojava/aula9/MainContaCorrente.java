@@ -6,17 +6,17 @@ public class MainContaCorrente {
 		
 		ContaCorrente conta = new ContaCorrente();
 		
-		conta.isSpecial = true;
-		conta.numero = "123456";
-		conta.agencia = "1234";
-		conta.saldo = -10;
-		conta.limite = 500;
+		conta.setSpecial(true);
+		conta.setNumero("123456");
+		conta.setAgencia("1234");
+		conta.setSaldo(-10);
+		conta.setLimite(500);
 		
-		System.out.println("É uma conta especial? " + conta.isSpecial);
-		System.out.println("numero da conta: " + conta.numero);
-		System.out.println("agencia: " + conta.agencia);
-		System.out.println("Saldo: " + conta.saldo);
-		System.out.println("Limite: " + conta.limite);
+		System.out.println("É uma conta especial? " + conta.isSpecial());
+		System.out.println("numero da conta: " + conta.getNumero());
+		System.out.println("agencia: " + conta.getAgencia());
+		System.out.println("Saldo: " + conta.getSaldo());
+		System.out.println("Limite: " + conta.getLimite());
 		
 		boolean saqueEfetuado = conta.saque(10);
 		if (saqueEfetuado) {
