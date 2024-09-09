@@ -1,6 +1,6 @@
 package com.jorge.cursojava.aula19;
 
-public class FiguraGeometrica {
+public abstract class FiguraGeometrica {
 	
 	private String nome;
 	private String cor;

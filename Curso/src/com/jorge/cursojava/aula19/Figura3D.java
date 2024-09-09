@@ -1,5 +1,5 @@
 package com.jorge.cursojava.aula19;
 
-public class Figura3D {
+public abstract class Figura3D extends FiguraGeometrica implements DimensaoSuperficial, DimensaoVolumetrica{
 
 }
