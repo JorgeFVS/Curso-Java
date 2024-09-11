@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38d0ac46-9088-479c-80b6-7991fd738990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula20/Excecao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula21/MultiplosCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula21/MultiplosCatch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula21/MultiplosCatchGenerico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula23/Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula23/AgendaCheiaExeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula23/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula23/ContatoNaoExisteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula23/mainContato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -39,6 +42,7 @@
     "Application.MultiplosCatch.executor": "Run",
     "Application.MultiplosCatch2.executor": "Run",
     "Application.MultiplosCatchGenerico.executor": "Run",
+    "Application.mainContato.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
@@ -54,5 +58,16 @@
       <updated>1725905296102</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Curso/src/com/jorge/cursojava/aula23/mainContato.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
